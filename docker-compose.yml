@@ -21,6 +21,7 @@ services:
         compound-v
         simple-voice-chat
         better-village
+        jei
       CURSEFORGE_FILES: |-
         ftb-ultimine-forge
         architectury-api
