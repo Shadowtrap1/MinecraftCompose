@@ -13,7 +13,7 @@ services:
       TYPE: "FORGE"
       VERSION: "1.20.1"
       MEMORY: "4096M"
-      MOTD: "Brought to you by Vought"
+      MOTD: "Rebmember this is a modded server that at some point will break and corrupt do not build anything you dont wanna lose. Brought to you by Vought"
       ICON: "https://cdn11.bigcommerce.com/s-lj8wphc2lt/images/stencil/1280x12>
         oducts/574/1461/boysS2-cover__68848.1759512543.jpg?c=2"
       USE_AIKAR_FLAGS: "true"
@@ -21,6 +21,7 @@ services:
         compound-v
         simple-voice-chat
         better-village
+        jei
       CURSEFORGE_FILES: |-
         ftb-ultimine-forge
         architectury-api
@@ -33,6 +34,7 @@ services:
         global-xp
         aether-villages
         gravestone-mod
+        spartan-weaponry
       CF_API_KEY: "$$2a$$10$$SNbeVMqCxi3PvC5R0p2o1OFKe7ysIMeLmIWQ3WeBx54rhW6IyjJ36"
     volumes:
       - "./data:/data"
