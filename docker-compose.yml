@@ -32,6 +32,7 @@ services:
         immersive-paintings
         easy-villagers
         global-xp
+        spartan-weaponry
       CF_API_KEY: "$$2a$$10$$SNbeVMqCxi3PvC5R0p2o1OFKe7ysIMeLmIWQ3WeBx54rhW6IyjJ36"
     volumes:
       - "./data:/data"
