@@ -22,6 +22,8 @@ services:
         simple-voice-chat
         better-village
         jei
+        aether-lost-content
+        framedblocks
       CURSEFORGE_FILES: |-
         ftb-ultimine-forge
         architectury-api
@@ -35,6 +37,7 @@ services:
         aether-villages
         gravestone-mod
         spartan-weaponry
+        from-the-fog
       CF_API_KEY: "$$2a$$10$$SNbeVMqCxi3PvC5R0p2o1OFKe7ysIMeLmIWQ3WeBx54rhW6IyjJ36"
     volumes:
       - "./data:/data"
