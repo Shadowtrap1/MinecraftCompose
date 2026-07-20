@@ -23,8 +23,10 @@ services:
         simple-voice-chat
         better-village
         jei
+        caged-mobs
         aether-lost-content
         framedblocks
+        lightmans-currency
       CURSEFORGE_FILES: |-
         ftb-ultimine-forge
         architectury-api
