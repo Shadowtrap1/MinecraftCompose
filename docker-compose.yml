@@ -19,6 +19,7 @@ services:
       USE_AIKAR_FLAGS: "true"
       MODRINTH_PROJECTS: |-
         compound-v
+        compound-v-gone-viral
         simple-voice-chat
         better-village
         jei
