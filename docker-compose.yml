@@ -12,7 +12,7 @@ services:
       EULA: "TRUE"
       TYPE: "FORGE"
       VERSION: "1.20.1"
-      MEMORY: "4096M"
+      MEMORY: "8192M"
       MOTD: "Rebmember this is a modded server that at some point will break and corrupt do not build anything you dont wanna lose. Brought to you by Vought"
       ICON: "https://i.pinimg.com/736x/e0/16/0e/e0160e6c4e0544c87c418757926ec3ea.jpg"
       USE_AIKAR_FLAGS: "true"
