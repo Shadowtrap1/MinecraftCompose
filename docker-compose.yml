@@ -28,6 +28,7 @@ services:
         framedblocks
         lightmans-currency
         farmers-delight
+        sophisticated-backpacks
       CURSEFORGE_FILES: |-
         ftb-ultimine-forge
         architectury-api
