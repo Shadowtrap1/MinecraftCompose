@@ -18,6 +18,7 @@ services:
       ICON: "https://i.pinimg.com/736x/e0/16/0e/e0160e6c4e0544c87c418757926ec3ea.jpg"
       USE_AIKAR_FLAGS: "true"
       MODRINTH_PROJECTS: |-
+        chunky
         compound-v
         compound-v-gone-viral
         simple-voice-chat
@@ -50,3 +51,5 @@ services:
       CF_API_KEY: "$$2a$$10$$SNbeVMqCxi3PvC5R0p2o1OFKe7ysIMeLmIWQ3WeBx54rhW6IyjJ36"
     volumes:
       - "./data:/data"
+    restart: unless-stopped # Add the restart policy here 
+  
