@@ -18,6 +18,7 @@ services:
       ICON: "https://i.pinimg.com/736x/e0/16/0e/e0160e6c4e0544c87c418757926ec3ea.jpg"
       USE_AIKAR_FLAGS: "true"
       MODRINTH_PROJECTS: |-
+        chunky:4FTDk9wv
         compound-v:C65KHe5Y
         compound-v-gone-viral:FipGJLSZ
         simple-voice-chat:3FOFOFRt
