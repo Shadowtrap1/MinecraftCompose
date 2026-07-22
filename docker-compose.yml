@@ -33,20 +33,20 @@ services:
         sophisticated-core:Kum0Dlrd
         sophisticated-backpacks:XGacFFnr
       CURSEFORGE_FILES: |-
-        ftb-ultimine-forge
-        architectury-api
-        ftb-library-forge
-        ftb-ranks-forge
-        library-ferret-forge
-        aether
-        immersive-paintings
-        easy-villagers
-        global-xp
-        aether-villages
-        gravestone-mod
-        spartan-weaponry
-        lets-do-vinery
-        from-the-fog
+        ftb-ultimine-forge:7880472
+        architectury-api:5137938
+        ftb-library-forge:8226927
+        ftb-ranks-forge:6522073
+        library-ferret-forge:4601234
+        aether:6134920
+        immersive-paintings:8140573
+        easy-villagers:5724570
+        global-xp:5644158
+        aether-villages:5707985
+        gravestone-mod:7099725
+        spartan-weaponry:6842571
+        lets-do-vinery:6965751
+        from-the-fog:4603882
       CF_API_KEY: "$$2a$$10$$SNbeVMqCxi3PvC5R0p2o1OFKe7ysIMeLmIWQ3WeBx54rhW6IyjJ36"
     volumes:
       - "./data:/data"
