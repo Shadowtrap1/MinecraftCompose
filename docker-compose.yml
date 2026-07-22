@@ -18,20 +18,20 @@ services:
       ICON: "https://i.pinimg.com/736x/e0/16/0e/e0160e6c4e0544c87c418757926ec3ea.jpg"
       USE_AIKAR_FLAGS: "true"
       MODRINTH_PROJECTS: |-
-        compound-v
-        compound-v-gone-viral
-        simple-voice-chat
-        better-village
-        caged-mobs
-        aether-lost-content
-        structure-gel-api
-        framedblocks
-        lightmans-currency
-        quark
-        zeta
-        farmers-delight
-        sophisticated-core
-        sophisticated-backpacks
+        compound-v:C65KHe5Y
+        compound-v-gone-viral:FipGJLSZ
+        simple-voice-chat:3FOFOFRt
+        better-village:zvb4Gj0d
+        caged-mobs:xu8CgGzR
+        aether-lost-content:PVl7uKx1
+        structure-gel-api:xavY0MZc
+        framedblocks:lSiHA1qU
+        lightmans-currency:eAALa47O
+        quark:DijQLauD
+        zeta:mSER3jBI
+        farmers-delight:CsjS7EkP
+        sophisticated-core:Kum0Dlrd
+        sophisticated-backpacks:XGacFFnr
       CURSEFORGE_FILES: |-
         ftb-ultimine-forge
         architectury-api
