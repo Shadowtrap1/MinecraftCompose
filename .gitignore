@@ -1,1 +1,8 @@
-rclone/rclone.conf
+# Ignore everything by default
+*
+
+# ...except the compose file itself
+!docker-compose.yml
+
+# and this .gitignore
+!.gitignore
