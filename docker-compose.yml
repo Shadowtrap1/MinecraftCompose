@@ -93,19 +93,19 @@ services:
       - "./mc-backups:/backups"
 
   onedrive-sync:
-    image: rclone/rclone:latest
-    restart: unless-stopped
-    environment:
-      RCLONE_CONFIG: /config/rclone/rclone.conf
-    volumes:
-      - "./mc-backups:/backups:ro"
-      - "./rclone/rclone.conf:/config/rclone/rclone.conf:ro"
-    entrypoint: >
-      sh -c "
-      while true; do
-        echo \"[$(date)] Syncing backups to OneDrive...\";
-        rclone sync /backups onedrive:mc-backups --create-empty-src-dirs -v;
-        sleep 3600;
-      done
-      "
+      image: rclone/rclone:latest
+      restart: unless-stopped
+      environment:
+        RCLONE_CONFIG: /config/rclone/rclone.conf
+      volumes:
+        - "./mc-backups:/backups:ro"
+        - "./rclone:/config/rclone"
+      entrypoint: >
+        sh -c "
+        while true; do
+          echo \"[$(date)] Syncing backups to OneDrive...\";
+          rclone sync /backups onedrive:mc-backups --create-empty-src-dirs -v;
+          sleep 3600;
+        done
+        "
   
