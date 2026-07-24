@@ -48,6 +48,7 @@ services:
         farmers-delight:CsjS7EkP
         sophisticated-core:Kum0Dlrd
         sophisticated-backpacks:XGacFFnr
+        xaeros-minimap:A1JacFsh
       CURSEFORGE_FILES: |-
         ftb-ultimine-forge:7880472
         architectury-api:5137938
@@ -63,6 +64,8 @@ services:
         spartan-weaponry:6842571
         lets-do-vinery:6965751
         from-the-fog:4603882
+        ftb-teams-forge:7499810
+        ftb-chunks-forge:8216874
       CF_API_KEY: "$$2a$$10$$SNbeVMqCxi3PvC5R0p2o1OFKe7ysIMeLmIWQ3WeBx54rhW6IyjJ36"
     volumes:
       - "./data:/data"
