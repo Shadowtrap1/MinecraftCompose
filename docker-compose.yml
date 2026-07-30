@@ -64,6 +64,9 @@ services:
         spartan-weaponry:6842571
         lets-do-vinery:6965751
         from-the-fog:4603882
+        disccord:7818174
+        jei:8526990
+        small-ships:5566900
       CF_API_KEY: "$$2a$$10$$SNbeVMqCxi3PvC5R0p2o1OFKe7ysIMeLmIWQ3WeBx54rhW6IyjJ36"
     volumes:
       - "./data:/data"
