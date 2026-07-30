@@ -14,7 +14,7 @@ services:
       EULA: "TRUE"
       TYPE: "FORGE"
       VERSION: "1.20.1"
-      MEMORY: "8192M"
+      MEMORY: "10240M"
       MOTD: "Rebmember this is a modded server that at some point will break. Brought to you by Vought"
       ICON: "https://i.pinimg.com/736x/e0/16/0e/e0160e6c4e0544c87c418757926ec3ea.jpg"
       USE_AIKAR_FLAGS: "true"
@@ -64,6 +64,9 @@ services:
         spartan-weaponry:6842571
         lets-do-vinery:6965751
         from-the-fog:4603882
+        disccord:7818174
+        jei:8526990
+        small-ships:5566900
       CF_API_KEY: "$$2a$$10$$SNbeVMqCxi3PvC5R0p2o1OFKe7ysIMeLmIWQ3WeBx54rhW6IyjJ36"
     volumes:
       - "./data:/data"
@@ -93,19 +96,19 @@ services:
       - "./mc-backups:/backups"
 
   onedrive-sync:
-      image: rclone/rclone:latest
-      restart: unless-stopped
-      environment:
-        RCLONE_CONFIG: /config/rclone/rclone.conf
-      volumes:
-        - "./mc-backups:/backups:ro"
-        - "./rclone:/config/rclone"
-      entrypoint: >
-        sh -c "
-        while true; do
-          echo \"[$(date)] Syncing backups to OneDrive...\";
-          rclone sync /backups onedrive:mc-backups --create-empty-src-dirs -v;
-          sleep 3600;
-        done
-        "
+    image: rclone/rclone:latest
+    restart: unless-stopped
+    environment:
+      RCLONE_CONFIG: /config/rclone/rclone.conf
+    volumes:
+      - "./mc-backups:/backups:ro"
+      - "./rclone:/config/rclone"   # mount the whole dir, read-write
+    entrypoint: >
+      sh -c "
+      while true; do
+        echo \"[$(date)] Syncing backups to OneDrive...\";
+        rclone sync /backups onedrive:mc-backups --create-empty-src-dirs -v;
+        sleep 3600;
+      done
+      "
   
