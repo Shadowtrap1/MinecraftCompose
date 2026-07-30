@@ -99,7 +99,7 @@ services:
       RCLONE_CONFIG: /config/rclone/rclone.conf
     volumes:
       - "./mc-backups:/backups:ro"
-      - "./rclone/rclone.conf:/config/rclone/rclone.conf:ro"
+      - "./rclone:/config/rclone"   # mount the whole dir, read-write
     entrypoint: >
       sh -c "
       while true; do
